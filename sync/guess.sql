@@ -11,7 +11,7 @@
  Target Server Version : 80013
  File Encoding         : 65001
 
- Date: 24/12/2018 23:46:15
+ Date: 24/12/2018 23:52:11
 */
 
 SET NAMES utf8mb4;
@@ -27,7 +27,7 @@ CREATE TABLE `guess` (
   `address` varchar(255) NOT NULL,
   `usernumber` int(11) NOT NULL,
   `sysnumber` int(11) NOT NULL,
-  `amount` int(255) NOT NULL,
+  `amount` bigint(255) NOT NULL,
   `tokentype` int(255) NOT NULL,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
